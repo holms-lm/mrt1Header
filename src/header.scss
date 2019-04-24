@@ -1,0 +1,76 @@
+$mainColor: #43b1d2;
+$menuColor: #494848;
+$colorBanner: #cbd4e6;
+header {
+   background-color: $mainColor;
+  .main{
+    height: 118px;
+  }
+  .left{
+    //background-color: red;
+  }
+  .right{
+    //background-color: green;
+  }
+  .right .row {
+    height: 100%;
+    justify-content: flex-end;
+  }
+  .right .side-right{
+    align-items: center;
+  }
+  .box{
+    height: 50px;
+    width: 50px;
+    //background-color: antiquewhite;
+  }
+  .for-logo{
+    height: 100%;
+    align-content: center;
+  }
+  .logo{
+    //background-color: antiquewhite;
+  }
+  .phone{
+    //background-color: antiquewhite;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 17pt;
+    color: white;
+    img{
+      margin-right: 3px;
+    }
+  }
+  .nav {
+    margin-top: 10px;
+    a.active {
+      color: white;
+    }
+    a {
+      color: $menuColor;
+    }
+    //background-color: aliceblue;
+  }
+}
+
+section.banner{
+  background-color: $colorBanner;
+  .container {
+    height: 515px;
+    background-image: url("../asssets/banner-min.jpg");
+  }
+  .banner-row {
+    justify-content: flex-end;
+    flex-basis: 70%;
+    font-size: 18px;
+    color: $menuColor;
+    height: 100%;
+    align-items: center;
+    div {
+      flex-basis: 40%;
+      text-align: end;
+    }
+
+  }
+
+}

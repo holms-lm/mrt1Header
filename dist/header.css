@@ -1,0 +1,44 @@
+header {
+  background-color: #43b1d2; }
+  header .main {
+    height: 118px; }
+  header .right .row {
+    height: 100%;
+    justify-content: flex-end; }
+  header .right .side-right {
+    align-items: center; }
+  header .box {
+    height: 50px;
+    width: 50px; }
+  header .for-logo {
+    height: 100%;
+    align-content: center; }
+  header .phone {
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 17pt;
+    color: white; }
+    header .phone img {
+      margin-right: 3px; }
+  header .nav {
+    margin-top: 10px; }
+    header .nav a.active {
+      color: white; }
+    header .nav a {
+      color: #494848; }
+
+section.banner {
+  background-color: #cbd4e6; }
+  section.banner .container {
+    height: 515px;
+    background-image: url("../asssets/banner-min.jpg"); }
+  section.banner .banner-row {
+    justify-content: flex-end;
+    flex-basis: 70%;
+    font-size: 18px;
+    color: #494848;
+    height: 100%;
+    align-items: center; }
+    section.banner .banner-row div {
+      flex-basis: 40%;
+      text-align: end; }
