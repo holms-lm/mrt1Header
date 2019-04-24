@@ -14,6 +14,7 @@ header {
     height: 100%;
     align-content: center; }
   header .phone {
+    padding-right: 15px;
     font-size: 10pt;
     font-weight: bold;
     line-height: 17pt;
@@ -32,13 +33,34 @@ section.banner {
   section.banner .container {
     height: 515px;
     background-image: url("../asssets/banner-min.jpg"); }
-  section.banner .banner-row {
+  section.banner .banner-column {
+    float: right;
+    flex-direction: column;
     justify-content: flex-end;
-    flex-basis: 70%;
+    width: 47%;
     font-size: 18px;
     color: #494848;
     height: 100%;
     align-items: center; }
-    section.banner .banner-row div {
-      flex-basis: 40%;
-      text-align: end; }
+    section.banner .banner-column div {
+      width: 100%;
+      text-align: end;
+      margin-bottom: 35px; }
+  section.banner span.bold {
+    font-size: 27px;
+    font-weight: bold;
+    padding-left: 20%; }
+
+.contact-us {
+  opacity: .8; }
+  .contact-us button {
+    color: #494848;
+    background-color: #ffffff00;
+    border: 1px solid #494848;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: -5px; }
+  .contact-us input {
+    border-radius: 5px;
+    border: 0px; }
