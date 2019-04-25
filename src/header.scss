@@ -17,7 +17,9 @@ header {
     justify-content: flex-end;
   }
   .right .side-right{
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 26px;
+    padding-right: 15px;
   }
   .box{
     height: 50px;
@@ -42,6 +44,10 @@ header {
       margin-right: 3px;
     }
   }
+  .for-nav {
+    margin-top: -80px;
+    justify-content: flex-end;
+  }
   .nav {
     margin-top: 10px;
     a.active {
@@ -52,6 +58,13 @@ header {
     }
     //background-color: aliceblue;
   }
+  .navbar {
+    justify-content: flex-end;
+  }
+  .navbar-toggler {
+    font-size: 11px;
+    margin-top: 5px;
+  }
 }
 
 section.banner{
@@ -59,11 +72,16 @@ section.banner{
   .container {
     height: 515px;
     background-image: url("../asssets/banner-min.jpg");
+    @media (max-width: 768px) {
+      background-position-x: right;
+    }
   }
   .banner-column {
     font-size: 18px;
     color: $menuColor;
     height: 515px;
+    padding: 10px;
+    align-items: flex-end;
     div {
       width: 100%;
       text-align: end;
@@ -72,6 +90,9 @@ section.banner{
     .description {
       margin-top: auto;
     }
+  }
+  form {
+    margin-top: 15px;
   }
   span.bold {
     font-size: 27px;

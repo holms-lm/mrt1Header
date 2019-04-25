@@ -6,7 +6,9 @@ header {
     height: 100%;
     justify-content: flex-end; }
   header .right .side-right {
-    align-items: center; }
+    align-items: flex-start;
+    padding-top: 26px;
+    padding-right: 15px; }
   header .box {
     height: 50px;
     width: 50px; }
@@ -21,28 +23,43 @@ header {
     color: white; }
     header .phone img {
       margin-right: 3px; }
+  header .for-nav {
+    margin-top: -80px;
+    justify-content: flex-end; }
   header .nav {
     margin-top: 10px; }
     header .nav a.active {
       color: white; }
     header .nav a {
       color: #494848; }
+  header .navbar {
+    justify-content: flex-end; }
+  header .navbar-toggler {
+    font-size: 11px;
+    margin-top: 5px; }
 
 section.banner {
   background-color: #cbd4e6; }
   section.banner .container {
     height: 515px;
     background-image: url("../asssets/banner-min.jpg"); }
+    @media (max-width: 768px) {
+      section.banner .container {
+        background-position-x: right; } }
   section.banner .banner-column {
     font-size: 18px;
     color: #494848;
-    height: 515px; }
+    height: 515px;
+    padding: 10px;
+    align-items: flex-end; }
     section.banner .banner-column div {
       width: 100%;
       text-align: end;
       margin-bottom: 35px; }
     section.banner .banner-column .description {
       margin-top: auto; }
+  section.banner form {
+    margin-top: 15px; }
   section.banner span.bold {
     font-size: 27px;
     font-weight: bold;
