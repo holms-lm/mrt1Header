@@ -34,18 +34,15 @@ section.banner {
     height: 515px;
     background-image: url("../asssets/banner-min.jpg"); }
   section.banner .banner-column {
-    float: right;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 47%;
     font-size: 18px;
     color: #494848;
-    height: 100%;
-    align-items: center; }
+    height: 515px; }
     section.banner .banner-column div {
       width: 100%;
       text-align: end;
       margin-bottom: 35px; }
+    section.banner .banner-column .description {
+      margin-top: auto; }
   section.banner span.bold {
     font-size: 27px;
     font-weight: bold;
@@ -64,3 +61,40 @@ section.banner {
   .contact-us input {
     border-radius: 5px;
     border: 0px; }
+
+section.service .col-md-3 {
+  height: 324px; }
+
+section.service .service-1 {
+  background-color: #43b1d2; }
+
+section.service .service-2 {
+  background-color: #3fb6c6; }
+
+section.service .service-3 {
+  background-color: #3cbbbb; }
+
+section.service .service-4 {
+  background-color: #37c3a8; }
+
+section.service .circle-icon {
+  width: 65px;
+  height: 65px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 80px auto 15px auto; }
+  section.service .circle-icon div.for-icon {
+    margin: 0 auto;
+    width: fit-content; }
+
+section.service .header, section.service .description {
+  margin-top: 15px;
+  text-align: center;
+  color: white; }
+
+section.service .header {
+  font-size: 16pt; }
+
+section.service .description {
+  font-size: 10pt; }
